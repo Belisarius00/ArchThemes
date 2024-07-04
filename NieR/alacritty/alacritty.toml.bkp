@@ -1,0 +1,11 @@
+[scrolling]
+history = 2000
+multiplier = 3
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 1
+y = 1

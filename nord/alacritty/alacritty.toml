@@ -1,0 +1,66 @@
+[colors.bright]
+black = "#3B4252"
+blue = "#95B5D5"
+cyan = "#9CD4E4"
+green = "#B7D2A0"
+magenta = "#C8A2C1"
+red = "#D4757E"
+white = "#F9FDFF"
+yellow = "#FFDF9D"
+
+[colors.normal]
+black = "#2E3440"
+blue = "#81A1C1"
+cyan = "#88C0D0"
+green = "#A3BE8C"
+magenta = "#B48EAD"
+red = "#BF616A"
+white = "#E5E9F0"
+yellow = "#EBCB8B"
+
+[colors.primary]
+background = "#2E3440"
+foreground = "#A9B1D6"
+
+[font]
+size = 14
+offset = {x=0,y=1}
+
+[font.bold]
+family = "monospace"
+style = "Bold"
+
+[font.normal]
+family = "monospace"
+style = "Regular"
+
+[font.italic]
+family = "monospace"
+style = "Italic"
+
+[font.bold_italic]
+family = "monospace"
+style = "Bold Italic"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Super|Shift"
+
+[scrolling]
+history = 2000
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+
+[shell]
+program = "/usr/bin/bash"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 5
+y = 5

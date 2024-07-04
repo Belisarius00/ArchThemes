@@ -1,0 +1,58 @@
+window:
+  padding:
+    x: 5
+    y: 5
+  class:
+    instance: Alacritty
+    general: Alacritty
+
+scrolling:
+  history: 2000
+  multiplier: 3
+
+colors:
+  primary:
+    background: "#2E3440"
+    foreground: "#A9B1D6"
+  normal:
+    black: "#2E3440"
+    red: "#VF616A"
+    green: "#A3BE8C"
+    yellow: "#EBCB8B"
+    blue: "#81A1C1"
+    magenta: "#B48EAD"
+    cyan: "#88C0D0"
+    white: "#E5E9F0"
+  bright:
+    black: "#3B4252"
+    red: "#D4757E"
+    green: "#B7D2A0"
+    yellow: "#FFDF9D"
+    blue: "#95B5D5"
+    magenta: "#C8A2C1"
+    cyan: "#9CD4E4"
+    white: "#F9FDFF"
+
+font:
+  normal:
+    family: FOTRodin Pro L
+    style: Regular
+  bold:
+    family: FOTRodin Pro M
+    style: Regular
+  size: 7 
+
+cursor:
+  style:
+    shape: Block
+    blinking: Off
+    blink-interval: 5 
+
+selection:
+  save_to_clipboard: false
+
+shell:
+  program: /usr/bin/bash
+
+key_bindings:
+  - {key: Return, mods: Super|Shift, action: SpawnNewInstance}
